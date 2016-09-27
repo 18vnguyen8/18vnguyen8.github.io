@@ -1,0 +1,34 @@
+
+h1{
+    float: left;
+}
+img{
+    position:absolute;
+    width:250px;
+    top:200px;
+    height:250px;
+}
+.para{
+    border-style:inset;
+    border-color:white;
+    display:inline-block;
+}
+img{
+    border-style:inset;
+    border-color:white;
+}
+table, th, td {
+    border: 4px inset white;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+h2,h3,h4,h5,h6{
+    border:4px inset white;
+}
+.section{
+    float:left;
+    display:block;
+}
