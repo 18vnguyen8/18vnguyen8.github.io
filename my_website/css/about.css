@@ -13,6 +13,9 @@ img{
     border-color:white;
     display:inline-block;
 }
+.parasection{
+    width:200px;
+}
 img{
     border-style:inset;
     border-color:white;
@@ -29,6 +32,6 @@ h2,h3,h4,h5,h6{
     border:4px inset white;
 }
 .section{
-    float:left;
     display:block;
+    width:350px;
 }
