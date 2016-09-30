@@ -1,24 +1,30 @@
 
-h1{
-    float: left;
-}
-img{
-    position:absolute;
-    width:250px;
-    top:200px;
-    height:250px;
+h2{ 
+    border:4px inset white;
+     margin-top:100px;
+     font-size: 25px;
 }
 .para{
-    border-style:inset;
+    border-style: inset;
     border-color:white;
     display:inline-block;
+    margin-left: 400px;
+    margin-top: 0px;
+    margin-right: 100px;
+    font-size:20px;
+    height:250px;
+    
 }
-.parasection{
-    width:200px;
-}
-img{
+.quoteabout{
     border-style:inset;
     border-color:white;
+    position: absolute;
+                top: 0px;
+                left: 100px;
+                right: 0px;
+                width: 1000px;
+                height: 400px;
+                z-index: -1;
 }
 table, th, td {
     border: 4px inset white;
@@ -28,10 +34,38 @@ th, td {
     padding: 5px;
     text-align: center;
 }
-h2,h3,h4,h5,h6{
+h3{
+    top:100px;
     border:4px inset white;
+    font-size: 23px;
 }
-.section{
-    display:block;
-    width:350px;
+.vinh{
+    position:absolute;
+    width:250px;
+    top:620px;
+    height:250px;
+    border-style:inset;
+    border-width:8px;
+    left:50px;
+}
+.car {
+    width: 420px;
+    height: 300px;
+    border-style:inset;
+    border-width:8px;
+}
+.batman{
+    width:420px;
+    height: 300px;
+    border-style: inset;
+    border-width: 8px;
+}
+.innovation{
+    width:420px;
+    height: 300px;
+    border-style: inset;
+    border-width: 8px;
+}
+.top{
+    background:"images/quoteabout.jpg";
 }

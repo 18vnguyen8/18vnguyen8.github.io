@@ -1,0 +1,11 @@
+.quoteport{
+    border-style:inset;
+    border-color:white;
+    position: absolute;
+                top: 0px;
+                left: 100px;
+                right: 0px;
+                width: 1000px;
+                height: 400px;
+                z-index: -1;
+}
