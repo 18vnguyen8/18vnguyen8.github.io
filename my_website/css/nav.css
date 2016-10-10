@@ -7,20 +7,21 @@ html{
     font-size:18px;
 }
 body{
-    margin-top:440px;
+    margin-top:20px;
 }
 .nav ul{
     list-style-type:none;
     margin:0;
     padding:0;
     position:relative;
-    font-size:23px;
+    font-size:20px;
+    padding-bottom: 100px;
 }
 .nav ul li{
-    display:inline-block;
+    float:left;
 }
 .nav ul li a{
-    display: block;
+    display: inline-block;
     text-align: center;
     padding:15px;
     color:white;
@@ -28,19 +29,20 @@ body{
     font-weight:bold;
     width:130px;
     height: 30px;
-    border-style:inset;
-    border-width: thick;
 }
 .nav ul li a:hover{
     background-color:#444;
 }
-div{
-    float:left;
-    height: 25px;
-    padding:15px;
-    width:120px;
-    color:white;
-    border-style:inset;
-    text-align: center;
-    border-width: thick;
+li .dropdown{
+    display:inline-block;
+}
+.dropdowncontent{
+    display:none;
+    position:absolute;
+}
+.dropdowncontent a:hover{
+    background-color:#444;
+}
+.dropdown:hover .dropdowncontent{
+    display: block;
 }

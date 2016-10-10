@@ -8,19 +8,19 @@
     <link href="css/nav.css" type="text/css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <body>
-    <img class="quoteabout" src="images/quoteabout.jpg">
     <nav class="nav">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="about.html">About Me</a></li>
+        <li class="dropdown"><a href="about.html">About Me</a>
+        <div class="dropdowncontent">
+        <a href="thoughts.html">Thoughts</a>
+        </div>
+        </li>
     </ul>
     </nav>
-    <br>
-    <header>
-        <h1>A Little About me</h1>
-    </header>
-    <img class="vinh"src="images/vinh.gif">
+    <h1>A Little About Me</h1>
+    <div class="body"><img class="vinh"src="images/vinh.gif">
     <p class="para">
         Hi, my name is Vinh! I am a junior who aspires to understand everything about computer science. 
         You might call me weird, but I look forward to seeing myself improving in this field.
@@ -31,9 +31,7 @@
     </p>
     <h3>Class Schedule</h3>
         <table>
-            <tr>
-                <th>Period</th><th>Class</th>
-            </tr>
+            <tr><th>Period</th><th>Class</th></tr>
                 <tr><td>1</td><td>English 3P</td></tr>
                 <tr><td>2</td><td>US History</td>
                 <tr><td>3</td><td>AP Computer Science Prn</td></tr>
@@ -51,14 +49,15 @@
     <h3>Favorite Songs</h3>
         <ol>
           <li>Yiruma - River Flows In You</li>
-          <li>Simple Plan - Welcome To My Life</li>
+          <li>Sad Song - We the Kings</li>
           <li>Fray - How To Save a Life</li>
           <li>Chainsmoker - Closer</li>
-        </ol>
-    <h3>Me</h3>
-        <img class="car"src="images/subarubrz.jpg">
-        <img class="batman" src="images/batman.jpg">
-        <img class="innovation" src="images/innovation.jpg">
+        </ol> 
+    <h3 class="goals">Goals</h3>
+        <img class="pic"src="images/subarubrz.jpg">
+        <img class="pic" src="images/watch.jpg">
+        <img class="pic" src="images/innovation.jpg">
+        <img class="pic" src="images/quote.png">
     <h3>Credits To</h3>
     <ul>
         <li>QuoteFancy</li>
@@ -66,8 +65,10 @@
         <li>Eskipaper</li>
         <li>media.licdn.</li>
         <li>Subaru</li>
+        <li>MVMT watch</li>
         <li>Androidify</liL>
         <li>Scratch.mit</li>
     </ul>
+    </div>
 </body>
 </html>
