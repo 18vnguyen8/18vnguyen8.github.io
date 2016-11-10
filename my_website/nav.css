@@ -14,11 +14,12 @@ body{
     margin:0;
     padding:0;
     position:relative;
-    font-size:20px;
+    font-size:13px;
     padding-bottom: 100px;
 }
 .nav ul li{
-    float:left;
+    float:right;
+    background-color: black;
 }
 .nav ul li a{
     display: inline-block;
@@ -32,17 +33,4 @@ body{
 }
 .nav ul li a:hover{
     background-color:#444;
-}
-li .dropdown{
-    display:inline-block;
-}
-.dropdowncontent{
-    display:none;
-    position:absolute;
-}
-.dropdowncontent a:hover{
-    background-color:#444;
-}
-.dropdown:hover .dropdowncontent{
-    display: block;
 }
