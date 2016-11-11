@@ -15,31 +15,14 @@ th, td {
     text-align: center;
 }
 h3{
-    top:100px;
     border:4px inset white;
-    font-size: 23px;
-}
-.goal{
-    float:right;
 }
 .vinh{
     position:absolute;
+    top:340px;
+    left:400px;
     width:280px;
-    top:520px;
     height:280px;
     border-style:inset;
     border-width:8px;
-    left:420px;
-}
-.pic{
-    width: 420px;
-    height: 300px;
-    border-style:inset;
-    border-width:8px;
-}
-.top{
-    background:"images/quoteabout.jpg";
-}
-.body{
-    columns:2;
 }
