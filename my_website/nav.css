@@ -1,13 +1,12 @@
-html{   
+body{
+    margin-top:20px;
     font-family: 'Open Sans', sans-serif;
     margin:0;
     padding:0;
-    background-image: url(http://gotosteves.com/images/background_tile_dark.jpg?crc=3863072959);
+   background-image: url(http://gotosteves.com/images/background_tile_dark.jpg?crc=3863072959);
     color:white;
     font-size:20px;
-}
-body{
-    margin-top:20px;
+    
 }
 .nav ul{
     list-style-type:none;
